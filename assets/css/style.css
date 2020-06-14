@@ -2462,10 +2462,10 @@ ul.social li a span { font-size: 24px; }
 .feature .feature-content p strong { color: #524141; text-transform: uppercase; font-size: 0.8rem; font-weight: 700; }
 .feature .feature-content p em { color: #ac3434; font-style: normal; }
 
-.page-home { background-image: url("../images/undraw_taking_notes_tjaf.svg"); background-repeat: no-repeat; background-size: 115%; background-position: 49px -40px; }
+.page-home { background-image: url("../images/cover.jpg"); background-repeat: no-repeat; background-size: 115%; background-position: 49px -40px; }
 @media (min-width: 576px) { .page-home { background-size: 90%; background-position: 159px -40px; } }
 @media (min-width: 768px) { .page-home { background-size: 70%; background-position: 100% -50px; } }
-@media (min-width: 992px) { .page-home { background-size: 60%; background-position: 100% -70px; } }
+@media (min-width: 992px) { .page-home { background-size: 60%; background-position: 100% 50px; } }
 .page-home .call { position: relative; overflow: hidden; background-color: #ffffff; border-radius: 4px; box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07); width: 100%; color: #524141; display: flex; align-items: flex-start; flex-direction: column; }
 @media (min-width: 576px) { .page-home .call { align-items: center; flex-direction: row; width: 90%; } }
 @media (min-width: 768px) { .page-home .call { width: 70%; } }
@@ -2515,10 +2515,10 @@ ul.social li a span { font-size: 24px; }
 @media (min-width: 768px) { .page-testimonials-list { background-size: 85%; background-position: 199px -80px; } }
 @media (min-width: 992px) { .page-testimonials-list { background-size: 60%; background-position: 100% -110px; } }
 
-.page-services-list { background-image: url("../images/undraw_businesswoman_pc12.svg"); background-repeat: no-repeat; background-size: 115%; background-position: 49px -40px; }
+.page-services-list { background-image: url("../images/products.png"); background-repeat: no-repeat; background-size: 115%; background-position: 49px -40px; }
 @media (min-width: 576px) { .page-services-list { background-size: 90%; background-position: 159px -40px; } }
 @media (min-width: 768px) { .page-services-list { background-size: 85%; background-position: 199px -80px; } }
-@media (min-width: 992px) { .page-services-list { background-size: 60%; background-position: 100% -110px; } }
+@media (min-width: 992px) { .page-services-list { background-size: 45%; background-position: 100% -70px; } }
 
 .page-services-single { background-color: #ac3434; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 2 1'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(226,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%238033aa'/%3E%3Cstop offset='1' stop-color='%231c3ed3'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%2336fff5' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2336fff5' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='2' y2='2' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%2336fff5' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%2336fff5' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='2' height='1'/%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23b)' points='0 1 0 0 2 0'/%3E%3Cpolygon fill='url(%23c)' points='2 1 2 0 0 0'/%3E%3C/g%3E%3C/svg%3E"); background-attachment: fixed; background-size: cover; }
 
