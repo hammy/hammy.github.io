@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/images/favicon.png">
+  <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body class='page page-services-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    <li><a href="/" class="">Home</a></li>
+    <li><a href="/services/" class="current">Products</a></li>
+    <li><a href="/team/" class="">Team</a></li>
+    <li><a href="/contact/" class="">Contact</a></li>
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header header-extra'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img alt="Figurit Homepage" src="/assets/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img alt="Figurit Homepage" src="/assets/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    <li><a href="/" class="">Home</a></li>
+    <li><a href="/services/" class="current">Products</a></li>
+    <li><a href="/team/" class="">Team</a></li>
+    <li><a href="/contact/" class="">Contact</a></li>
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+    <div class="strip strip-white strip-diagonal">
+  <div class="container pt-4 pt-md-10">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-8">
+        <div class="service service-single">
+          <h1 class="title">Detection</h1>
+          <div class="content"><p>TERAWIN (Target Extraction with Range and Amplitude for all Waveforms with Interval timing and Noise count) is a bla blaa blaa.  A disruptive, FAST hardware technique for Detecting
+Lorem markdownum aequalis strigis. <em>Saetigeri iubeas</em>, vultu huic alvum nondum.</p>
+
+<p><img src="/assets/images/vernier1.jpg" alt="Vernier Scale" title="Vernier Scale" /></p>
+
+<h2 id="what-of-terawin">What of TERAWIN?</h2>
+
+<p>Disruptive, <strong>FAST</strong> hardware technique for Detecting:</p>
+<ul>
+  <li><strong>Peak Amplitude</strong> in a RADAR Range Cell/Bin;</li>
+  <li><strong>Time</strong> from the beginning of the Range Cell/Bin to this Peak Amplitude;</li>
+  <li><strong>Number</strong> of times the Constant False Alarm Rate (<strong>CFAR</strong>) hardware-<strong>Threshold</strong> has been exceeded in the Range Cell/Bin (<strong>False Alarm Rate</strong>); and</li>
+  <li><strong>Conditions</strong> to be reported by optimized Vectored Interrupt</li>
+</ul>
+
+<p>The difference in Time between two RADAR Pulses, provides a Super-Accurate (far superior to DOPPLER) measure of the Target/Obstructions’ movement towards/away from the RADAR.</p>
+
+<p>The <strong>Peak Amplitude</strong>, <strong>Time</strong> and <strong>CFAR</strong> circuit is preceded by selectable hardware Pulse Integration, Pulse Canceller; and Universal Filter (<strong>DUF</strong>) that can be Programmed on a Range Cell/Bin basis as a:</p>
+<ul>
+  <li>Low Pass Filter</li>
+  <li>High Pass Filter</li>
+  <li>Band Pass Filter</li>
+  <li>Notch Filter</li>
+</ul>
+
+<p>This UF performs the equivalent of a DOPPLER Filter Bank in Pulse RADAR, and FFT transformation of Time into Frequency for CW RADAR. It also allows Targets/Obstructions that are not of interest, to be filtered out very early in Receiver Processing Chain; saving on Storage and Processing.</p>
+
+<h2 id="why-of-terawin">Why of TERAWIN?</h2>
+
+<ul>
+  <li>SWaPC + Safety</li>
+  <li>Patented <strong>DynamicRange</strong><sup>TM</sup> adjusts each Range Cell/Bin size so that there is only one Target/Obstruction in the Range Cell/Bin. This allows the TERAWIN Hardware Process to produce an unambiguous Peak Amplitude and Time to Peak Amplitude. It also allows the RADAR to be used for Long Range and Short Range (a potential saving of 1 RADAR).</li>
+  <li>Hardware Technique (=&gt; <strong>FAST RESPONSE – Think Emergency Braking</strong>) that can be implemented in very low cost Medium Scale Integration (MSI) chip or a very small area of a System On a Chip (SOC):
+    <ul>
+      <li>Dynamic Filtering on a Range Cell/Bin basis (Pulse Integration, Pulse Canceller, with Low Pass, High Pass, Band Pass and Notch Filter). Equivalent to DOPPLER Filter Bank in Pulse RADAR. Equivalent of Time-To-Frequency FFT in FMCW RADAR.</li>
+      <li>Peak Amplitude Detection in the Range Cell/Bin. Equivalent to Target Detection in Pulse and FMCW.</li>
+      <li>Time (Clock Count) into the Range Cell/Bin of this Peak Amplitude.
+        <ul>
+          <li>(2 pulses provide 2 Clock Counts. If Counts the same, Target/Obstruction is stationary. If Counts are different, Target/Obstruction is moving. Equivalent to DOPPLER in both Pulse and FMCW.</li>
+          <li>Clock frequency determines distance-accuracy in Range and Radial movement. For example, a 30 GHz clock will show distance accuracy to 1 cm.</li>
+          <li>Much simpler and much more accurate than DOPPLER).</li>
+        </ul>
+      </li>
+      <li>Constant False Alarm Rate (CFAR) Detection and Thresholding (hardware Threshold set by software).</li>
+      <li>Peak Amplitude Detection simplifies Angle Of Arrival (AOA) Processing.</li>
+      <li>Difference in Count along an antenna array provides Time Delay Of Arrival (TDOA)</li>
+    </ul>
+  </li>
+  <li>Being a hardware solution, once validated, can be “Carved In Stone”.  Whereas, with a               Software Solution, there is always the possibility of problem-introduction for each new “Build/Release”.</li>
+  <li>TERAWIN is a hardware solution.  Pulse DOPPLER and FMCW, being mainly software, require a lot more Computational Power and Storage, particularly FMCW (when using Ultra Wide Bandwidth with CHIRP Frame(s) and Multiple RX Antennas) for:
+    <ul>
+      <li>Target/Obstruction Detection.</li>
+      <li>Radial Speed Detection (DOPPLER).</li>
+      <li>Stationary Target Detection.</li>
+      <li>Constant False Alarm Rate (CFAR) Processing.</li>
+      <li>AOA for antenna arrays.</li>
+    </ul>
+  </li>
+  <li>The TERAWIN Technique applies both to Pulse Radar (replaces software for DOPPLER, Target Detection and CFAR) and FMCW (replaces software for FFT, Target Detection and CFAR).</li>
+  <li>TERAWIN, and Associated Techniques, improve Mutual Interferences Rejection and Minimizes Mutual Interference Creation.</li>
+  <li><strong>DynamicRange</strong><sup>TM</sup> Cell/Bin allows further minimization of Storage and Processing for Range Cells/Bins with no Target/Obstructions (<strong>SparseRange</strong><sup>TM</sup>); while applying patent pending <strong>VernierScale</strong><sup>TM</sup> “Magnification” for Range Cells/Bins with multiple Targets/Obstructions.</li>
+  <li><strong>VernierScale</strong><sup>TM</sup> Processing also allows Dynamic (only when Detected)</li>
+  <li>Target/Obstruction IMAGING.</li>
+  <li><strong>DuoPulse</strong><sup>TM</sup> provides Target Velocity with just 2 reflections.</li>
+  <li><strong>TrioPulse</strong><sup>TM</sup>  provides, with just 3 Reflections, Target Manoeuvring  Detection for Interacting Multi-Model (IMM) Tracking:
+    <ul>
+      <li>Constant Velocity</li>
+      <li>Constant Acceleration (negative or positive)</li>
+      <li>Constant Turning</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <div class="footer-strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer">
+          <h3 class="footer-title">Capella Aerospace</h3>
+          <ul class="footer-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li class="copyright">© Capella Aerospace 2020</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="sub-footer-strip">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer">
+          <ul>
+            <li><strong>Phone: </strong>1 613 256 3251</li>
+            <li><strong>Email: </strong><a href="mailto:info@capellaaero.com">
+                info@capellaaero.com</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+</body>
+</html>
